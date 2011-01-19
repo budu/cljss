@@ -1,6 +1,6 @@
 # cljss
 
-The `cljss` library help you generate CSS rules using Clojure code, with
+The cljss library help you generate CSS rules using Clojure code, with
 support for:
 
  * nested CSS rules;
@@ -53,6 +53,22 @@ support for:
                   :text-decoration :none]]
        ;; footer
        [($ :#footer :p) :font-size :0.7em]))
+
+## Installation
+
+cljss is available through Clojars.
+
+For the latest release, in Cake/Leiningen:
+
+    [cljss "0.1.0"]
+
+in Maven:
+
+    <dependency>
+      <groupId>cljss</groupId>
+      <artifactId>cljss</artifactId>
+      <version>0.1.0</version>
+    </dependency>
 
 ## License
 
