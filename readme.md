@@ -60,14 +60,14 @@ cljss is available through Clojars.
 
 For the latest release, in Cake/Leiningen:
 
-    [cljss "0.1.0"]
+    [cljss "0.1.1"]
 
 in Maven:
 
     <dependency>
       <groupId>cljss</groupId>
       <artifactId>cljss</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
     </dependency>
 
 ## License
