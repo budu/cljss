@@ -40,7 +40,7 @@
 
 (defn gen-rule [selector properties]
   (let [selector (->vec selector)]
-    (str (->> selector (map name) (join \space)) " {"
+    (str (->> selector flatten (map name) (join \space)) " {"
          (->> properties (partition 2) (map css-property) flatten (join \;))
          "}")))
 
